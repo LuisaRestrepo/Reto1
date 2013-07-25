@@ -163,13 +163,10 @@ while($filas= mysql_fetch_array($consulta)){
 	$desc=$filas['descripcion'];
 
  ?>
-        
-        <?php echo $desc; ?>
-      <ins><img src="<?php echo $ruta;?>" width="220" height="214"></ins> <br>
-     
-     
- <?php } ?>
-     </p>
+        <ins><img src="<?php echo $ruta;?>" width="250" height="214"></ins>
+        <?php } ?>
+        <br>
+      </p>
       <p>&nbsp;</p>
     </section>
     <section>

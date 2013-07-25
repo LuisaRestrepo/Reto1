@@ -11,12 +11,6 @@ while($filas= mysql_fetch_array($cate)){
  ?>
  
  <?php echo $desc; ?>
- <table width="200" border="1">
-   <tr>
-     <td><ins><img src="<?php echo $ruta;?>" width="180" height="214"></ins></td>
-   </tr>
- </table>
- <br>
-     
-     
+ <ins><img src="<?php echo $ruta;?>" width="180" height="214" /></ins> 
  <?php } ?>
+ <br>
