@@ -10,7 +10,8 @@ while($filas= mysql_fetch_array($cate)){
 
  ?>
  
- <?php echo $desc; ?>
- <ins><img src="<?php echo $ruta;?>" width="180" height="214" /></ins> 
+
+ <ins><img src="<?php echo $ruta;?>" width="180" height="214" /></ins>
  <?php } ?>
  <br>
+ 

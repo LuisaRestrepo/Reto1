@@ -141,7 +141,7 @@ header, section, footer, aside, article, figure {
   <a href="#"><img src="1002409_10200817233705907_755461306_n.jpg" alt="Insertar logotipo aquí" width="268" height="211" id="Insert_logo" style="background-color: #C6D580; display:block;" /></a></header>
   <div class="sidebar1">
     <ul class="nav">
-        <li><a href="principal.html">Volver a la Principal</a></li>
+        <li><a href="index.html">Volver a la Principal</a></li>
         <li><a href="login.html">Cargar Imagenes</a></li>
         <li></li>
         <li></li>
