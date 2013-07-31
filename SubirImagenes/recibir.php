@@ -1,4 +1,5 @@
 <?php 
+
 /*
 print_r($_FILES);
 echo '<br>';
@@ -11,6 +12,7 @@ echo 'tipo de la imagen: ';
 print_r($_FILES['imagen']['type']);
 
 
+
 echo '<br>';
 echo 'ruta temporal de la imagen: ';
 print_r($_FILES['imagen']['tmp_name']);
@@ -20,7 +22,6 @@ include ("conexion.php");
 
 $casa= substr(md5(uniqid(rand())),0,3);
 
-//$rutaEnServidor= 'C:\wamp\www\SubirImagenes\imagenes';
 $rutaEnServidor= 'imagenes';
 $rutaTemporal=$_FILES['imagen']['tmp_name'];
 $nombreImagen=$_FILES['imagen']['name'];
